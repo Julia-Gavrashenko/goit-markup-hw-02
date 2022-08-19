@@ -5,29 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфоліо</title>
+    <!-- шрифти сторінки -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- стилі сторінки -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- шапка сторінки "портфоліо" з навігацією та контактами -->
-    <header>
-      <nav>
-        <a href="" lang="en"> <span>Web</span>Studio </a>
-        <ul>
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+    <header class="header">
+      <nav class="main-nav">
+        <a class="logo" href="" lang="en">
+          <span class="logo-item">Web</span>Studio
+        </a>
+        <ul class="list">
+          <li class="list-item">
+            <a class="link" href="./index.html">Студія</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="list-item">
+            <a class="link" href="">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="list">
+        <li class="list-item">
+          <a class="link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="list-item">
+          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
-    <!--  основнf частина сторінки -->
+    <!--  основна частина сторінки -->
     <main>
       <section>
         <h1>Наші пропозиції</h1>
-        <ul>
+        <ul class="list">
           <li><button type="button">Усі</button></li>
           <li><button type="button">Веб-сайти</button></li>
           <li><button type="button">Додатки</button></li>
@@ -35,7 +57,7 @@
           <li><button type="button">Маркетинг</button></li>
         </ul>
 
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./image/img-tehno.jpg"
@@ -133,12 +155,18 @@
 
     <!-- футер сторінки "портфоліо" з контактами -->
     <footer>
-      <a href="" lang="en"> <span>Web</span>Studio </a>
+      <a class="link" href="" lang="en"> <span>Web</span>Studio </a>
       <address>
         <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

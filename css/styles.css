@@ -1,21 +1,33 @@
 :root {
-    /* Шрифти */
-    
-    /* Кольори тексту*/
-    --accent-text-color: #2196F3;
-    --main-text-color: #757575;
-    --text-title-color: #212121;
-    --accent-text-color: #2196F3;
-    /* кольори фону */
-    --main-background-color: #E5E5E5;
-    --header-cards-fill-color: #FFFFFF; 
-    --secondary-background-color: #F5F4FA;
-    --fill-dark-color: #2F303A;
+  /* Шрифти */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
 
+  /* Кольори тексту*/
+  --accent-text-color: #2196f3;
+  --main-text-color: #757575;
+  --text-title-color: #212121;
+  --accent-text-color: #2196f3;
+
+  /* кольори фону */
+  --main-background-color: #e5e5e5;
+  --header-cards-fill-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --fill-dark-color: #2f303a;
 }
 
+body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  font-family: var(--main-font);
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
 
-body{
-    color: var(--main-text-color);
-    background-color: var(--main-background-color);
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style: none;
 }

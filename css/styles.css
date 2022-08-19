@@ -1,0 +1,21 @@
+:root {
+    /* Шрифти */
+    
+    /* Кольори тексту*/
+    --accent-text-color: #2196F3;
+    --main-text-color: #757575;
+    --text-title-color: #212121;
+    --accent-text-color: #2196F3;
+    /* кольори фону */
+    --main-background-color: #E5E5E5;
+    --header-cards-fill-color: #FFFFFF; 
+    --secondary-background-color: #F5F4FA;
+    --fill-dark-color: #2F303A;
+
+}
+
+
+body{
+    color: var(--main-text-color);
+    background-color: var(--main-background-color);
+}

@@ -30,7 +30,8 @@
   text-decoration: none;
   color: currentColor;
 }
-.list {
+.list,
+.list-button {
   list-style: none;
 }
 
@@ -102,14 +103,14 @@
 }
 
 /* Стилі секції "особливості" */
-.list-title {
+.feature-title {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.subtitle {
+.feature-subtitle {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -151,7 +152,7 @@
 
 /* Стилі сторінки "Портфоліо" */
 
-.list-button {
+.list-button .button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -162,11 +163,10 @@
   cursor: pointer;
 }
 
-.list-button:hover,
-.list-button:hover
-{background-color: var(--accent-background-color);
+.list-button .button:hover,
+.list-button .button:focus {
+  background-color: var(--accent-background-color);
   color: var(--light-text-color);
-
 }
 
 .projests-title {

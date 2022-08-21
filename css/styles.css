@@ -8,10 +8,12 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --light-text-color: #ffffff;
+  --black-text-color: #000000;
 
   /* кольори фону */
-  --main-background-color: #e5e5e5;
+  --main-background-color: #F5F5F5;;
   --secondary-background-color: #f5f4fa;
+  --accent-background-color: #2196f3;
   --dark-fill-color: #2f303a;
   --light-fill-color: #ffffff;
 }
@@ -38,11 +40,12 @@ body {
 }
 
 .header-logo {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--black-text-color);
   text-decoration: none;
 }
 
@@ -70,7 +73,96 @@ body {
   color: var(--accent-text-color);
 }
 
-/* Стилі основного контенту */
+/* Стилі сторінки "студія" */
+/*  Стилі секції "hero" */
+.hero {
+  background-color: var(--dark-fill-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-text-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--light-text-color);
+  background-color: var(--accent-background-color);
+  cursor: pointer;
+}
+
+/* Стилі секції "особливості" */
+.list-title {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.subtitle {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+
+/* Стилі секції "чим ми займаємось" */
+.title {
+  font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+/* Стилі секції "наша команда" */
+.third-section {
+  background-color: var(--secondary-background-color);
+}
+
+.description {
+  background-color: var(--light-fill-color);
+}
+
+.list-title{
+  font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16); 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+   
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+/* Стилі сторінки "Портфоліо" */
+
+
+
+
+
+
+
+
+
+
 
 /* Стилі футеру */
 
@@ -79,6 +171,7 @@ body {
 }
 
 .footer-logo {
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -95,6 +188,7 @@ body {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+  font-style: normal;
 }
 .addres-text {
   color: var(--light-text-color);

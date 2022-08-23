@@ -31,7 +31,8 @@
   color: currentColor;
 }
 .list,
-.list-button {
+.list-button,
+.list-projects {
   list-style: none;
 }
 
@@ -70,9 +71,6 @@
   color: var(--accent-text-color);
 }
 
-.mail {
-  color: var(--accent-text-color);
-}
 
 /* Стилі сторінки "студія" */
 /*  Стилі секції "hero" */
@@ -176,7 +174,8 @@
   color: var(--title-text-color);
 }
 
-.projecs-subtitle {
+.projects-subtitle {
+  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
